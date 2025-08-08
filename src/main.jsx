@@ -10,7 +10,7 @@ import EducationUniforms from "./Components/EducationUniforms";
 import PoloAndTShirts from "./Components/PoloAndTShirts";
 import HospitalityUniforms from "./Components/HospitalityUniforms";
 import PrintsAndFabrics from "./Components/PrintsAndFabrics";
-import WinterWear from "./Components/Winterwear";
+import WinterWear from "./Components/WinterWear";
 import Navbar from './Components/Navbar';
 import NewArrivals from './Components/NewArrivals';
 import CustomUniforms from './Components/CustomUniform';
