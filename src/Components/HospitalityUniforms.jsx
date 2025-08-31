@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import hospitalityImg from "../assets/Cook.jpeg";
 function HospitalityUniforms() {
   const hospitalityProducts = [
     {
@@ -128,7 +129,7 @@ function HospitalityUniforms() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=2070&q=80)'
+            backgroundImage: `url(${hospitalityImg})`
           }}
         ></div>
 

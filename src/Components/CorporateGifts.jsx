@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import corporateImg from "../assets/corporate.jpeg";
+
 
 function CorporateGifts() {
   const corporateProducts = [
@@ -101,7 +103,7 @@ function CorporateGifts() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)'
+            backgroundImage:`url(${corporateImg})`
           }}
         ></div>
 

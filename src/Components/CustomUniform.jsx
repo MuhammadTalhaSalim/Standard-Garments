@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Custom from "../assets/construction.jpeg";
 function CustomUniforms() {
   const customUniformServices = [
     {
@@ -129,7 +129,7 @@ function CustomUniforms() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
-            backgroundImage: 'url(https://media.istockphoto.com/id/1485832938/photo/female-hands-stitching-white-fabric-on-modern-sewing-machine-at-workplace-in-atelier.jpg?s=612x612&w=0&k=20&c=50gOMKTTbhLZuZV2TzL486WfQPq0aQ79adTCo918WV0=)'
+            backgroundImage: `url(${Custom})`
           }}
         ></div>
 

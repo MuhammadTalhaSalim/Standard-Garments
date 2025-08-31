@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import poloTshirtImg from "../assets/standard.jpeg";
 function PoloAndTShirts() {
   const poloTshirtProducts = [
     {
@@ -100,7 +101,7 @@ function PoloAndTShirts() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)'
+            backgroundImage: `url(${poloTshirtImg})`
           }}
         ></div>
 
